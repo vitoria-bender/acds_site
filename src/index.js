@@ -6,6 +6,7 @@ import Header from './Header';
 import HeroSection from './HeroSection';
 import FasesLuto from './FasesLuto';
 import Sobre from './Sobre';
+import Footer from './Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
     <ContatosEm />
     <Sobre />
     <FasesLuto />
+    <Footer />
 
   </React.StrictMode>
 );
