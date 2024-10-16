@@ -7,6 +7,8 @@ import HeroSection from './HeroSection';
 import FasesLuto from './FasesLuto';
 import Sobre from './Sobre';
 import Footer from './Footer';
+import Carrossel from './Carrossel';
+import Jogue from './Jogue';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +17,9 @@ root.render(
     <HeroSection />
     <ContatosEm />
     <Sobre />
+    <Carrossel />
     <FasesLuto />
+    <Jogue />
     <Footer />
 
   </React.StrictMode>

@@ -41,7 +41,7 @@ const FasesLuto = () => {
   ];
 
   return ( 
-  <div className="flex flex-col items-center p-6 mt-10">
+  <div id="FasesLuto" className="flex flex-col items-center p-6 mt-10">
   <h1 className="text-3xl font-bold mb-6">As Fases do Luto</h1>
   <p className="text-center text-lg mb-8">
     O luto é um processo complexo e individual, mas geralmente segue um padrão reconhecível. Compreender essas fases pode ajudar no processo de cura.
@@ -50,7 +50,7 @@ const FasesLuto = () => {
     {fases.map((fase, index) => (
       <div
         key={index}
-        className="border rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 min-h-64 flex flex-col justify-center items-center text-center"
+        className="border rounded-lg p-4 bg-gray-100 shadow-md hover:shadow-lg transition-shadow duration-300 min-h-64 flex flex-col justify-center items-center text-center"
       >
         <img src={fase.imgSrc} alt={fase.title} className="w-12 h-12 mb-4" />
         <h2 className="text-xl font-bold mb-2 text-black">{fase.title}</h2>

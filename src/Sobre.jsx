@@ -3,7 +3,7 @@ import SobreImg from './imgs/Sobre.png';
 
 const Sobre = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between p-6 bg-white mt-10">
+    <div id="Sobre" className="flex flex-col md:flex-row items-center justify-between p-6 bg-white mt-10">
       
       <div className="w-full md:w-1/2">
         <img

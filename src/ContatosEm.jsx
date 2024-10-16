@@ -2,7 +2,7 @@ import React from "react";
 
 const ContatosEm = () => {
   return (
-    <div className="bg-white p-8">
+    <div id="ContatosEm" className="bg-white p-8">
       <h2 className="text-2xl font-bold text-center mb-8">Contatos de Emergência</h2>
       <h2 className="text-xl text-center mb-8">Você não está sozinho. Em casos de necessidade, ligue para os seguintes contatos de emergência</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

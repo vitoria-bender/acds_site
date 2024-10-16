@@ -14,22 +14,22 @@ const Header = () => {
         <nav>
           <ul className="flex space-x-6 text-gray-300">
             <li>
-              <a href="#contatos" className="hover:text-gray-100">
+              <a href="#Sobre" className="hover:text-gray-100">
                 Sobre
               </a>
             </li>
             <li>
-              <a href="#informacoes" className="hover:text-gray-100">
+              <a href="#ContatosEm" className="hover:text-gray-100">
                 Contatos
               </a>
             </li>
             <li>
-              <a href="#fases" className="hover:text-gray-100">
+              <a href="#FasesLuto" className="hover:text-gray-100">
                 Fases do Luto
               </a>
             </li>
             <li>
-              <a href="#jogo" className="hover:text-gray-100">
+              <a href="#Jogue" className="hover:text-gray-100">
                 Jogue agora
               </a>
             </li>
