@@ -14,8 +14,10 @@ const HeroSection = () => {
           A importância do diagnóstico e tratamento de transtornos mentais
           durante a passagem pelo luto
         </p>
+        
         <button className="mt-8 bg-white text-black py-2 px-6 rounded hover:bg-gray-200 transition duration-300">
-            Descubra Mais
+          <a href="#Jogue">
+            Descubra Mais</a>
           </button>
       </div>
     </div>

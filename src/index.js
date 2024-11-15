@@ -9,6 +9,7 @@ import Sobre from './Sobre';
 import Footer from './Footer';
 import Carrossel from './Carrossel';
 import Jogue from './Jogue';
+import Form from  './Form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +21,7 @@ root.render(
     <Carrossel />
     <FasesLuto />
     <Jogue />
-    <Footer />
-
+    <Form />
+  <Footer />
   </React.StrictMode>
 );
