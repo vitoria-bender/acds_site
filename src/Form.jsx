@@ -9,7 +9,7 @@ const Form = () => {
         Sua opinião é muito importante!
       </p>
       <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfjnA6Vc2sE_v0vzCCZvmSLa-Y9IjiINR2aX0oX43MPXKjgqg/viewform?embedded=true"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfjnA6Vc2sE_v0vzCCZvmSLa-Y9IjiINR2aX0oX43MPXKjgqg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0"
         width="100%"
         height="2120"
         className="w-full max-w-3xl border rounded-lg"
