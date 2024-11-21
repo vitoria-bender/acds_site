@@ -11,8 +11,7 @@ const HeroSection = () => {
       <div className="text-center text-white px-4">
         <h1 className="text-5xl font-bold">As cores da Saudade</h1>
         <p className="mt-4 text-xl">
-          A importância do diagnóstico e tratamento de transtornos mentais
-          durante a passagem pelo luto
+          Um jogo digital de conscientização e apoio emocional
         </p>
         
         <button className="mt-8 bg-white text-black py-2 px-6 rounded hover:bg-gray-200 transition duration-300">

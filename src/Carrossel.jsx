@@ -9,7 +9,7 @@ const Carrossel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000,
     arrows: false,
   };
 
@@ -38,22 +38,30 @@ const Carrossel = () => {
 
   return (
     <div className="bg-gray-100 py-12">
-      <h2 className="text-3xl font-bold text-center mb-8">
+      <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 px-4">
         Condições relacionadas ao luto
       </h2>
-      <h4 className="text-xl text-center mb-5">
-       O luto pode desencadear condições mentais que podem exigir apoio profissional. Conheça o que foi abordado no jogo e esteja atento aos sinais.
+      <h4 className="text-base sm:text-lg text-center mb-4 px-4">
+        O luto pode desencadear condições mentais que podem exigir apoio
+        profissional. Conheça o que foi abordado no jogo e esteja atento aos
+        sinais.
       </h4>
-      <h6 className="text-xl text-center mb-8">
-       Mas lembre-se! Apenas um profissional de saúde pode diagnosticar e tratar tais condições de forma adequada. Busque ajuda qualificada se necessário.
+      <h6 className="text-sm sm:text-base text-center mb-6 px-4 text-gray-600">
+        Mas lembre-se! Apenas um profissional de saúde pode diagnosticar e
+        tratar tais condições de forma adequada. Busque ajuda qualificada se
+        necessário.
       </h6>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <Slider {...settings}>
           {info.map((item, index) => (
-            <div key={index} className="p-6">
-              <div className="bg-white border rounded-lg shadow-lg p-6 text-center">
-                <h3 className="text-2xl font-semibold mb-4">{item.title}</h3>
-                <p className="text-gray-700 text-lg">{item.description}</p>
+            <div key={index} className="p-4">
+              <div className="bg-white border rounded-lg shadow-lg p-6 md:p-8 text-center">
+                <h3 className="text-xl sm:text-2xl font-semibold mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-gray-700 text-sm sm:text-lg leading-relaxed">
+                  {item.description}
+                </p>
               </div>
             </div>
           ))}
