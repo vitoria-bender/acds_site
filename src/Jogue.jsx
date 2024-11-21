@@ -51,10 +51,21 @@ const Jogue = () => {
         ))}
       </div>
 
-      <div className="text-center mt-12">
-        <button className="bg-gray-800 text-white py-3 px-8 rounded-lg font-bold text-lg shadow-md hover:bg-blue-900 hover:shadow-lg transition duration-300">
-          Jogue Agora
-        </button>
+      <div className="text-center mt-12 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+        <a
+          href="/downloads/MyGame-1.0-win.zip"
+          download
+          className="bg-gray-800 text-white py-3 px-8 rounded-lg font-bold text-lg shadow-md hover:bg-blue-900 hover:shadow-lg transition duration-300"
+        >
+          Baixar para Windows
+        </a>
+        <a
+          href="/downloads/MyGame-1.0-mac.zip"
+          download
+          className="bg-gray-800 text-white py-3 px-8 rounded-lg font-bold text-lg shadow-md hover:bg-blue-900 hover:shadow-lg transition duration-300"
+        >
+          Baixar para macOS
+        </a>
       </div>
     </section>
   );
